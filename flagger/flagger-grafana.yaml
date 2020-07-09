@@ -11,3 +11,5 @@ spec:
     version: 1.4.0
   values:
     url: http://prometheus.istio-system:9090
+    service:
+      type: LoadBalancer
